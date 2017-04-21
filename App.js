@@ -42,7 +42,7 @@ export default class App extends React.Component {
         initialRegion={this.initialRegion()}
       >
         {this.state.polylines.map((polyline, index) => (
-          <MapView.Polyline key={index} coordinates={polyline} strokeWidth={5}  strokeColor="#1396A5" />
+          <MapView.Polyline key={index} coordinates={polyline} strokeWidth={5} strokeColor="#1396A5" />
         ))}
 
         {this.state.markers.map((marker, index) => (
